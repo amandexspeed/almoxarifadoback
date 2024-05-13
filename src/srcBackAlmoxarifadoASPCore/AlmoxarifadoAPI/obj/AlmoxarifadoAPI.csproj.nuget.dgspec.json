@@ -1,37 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj": {}
+    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj": {
+    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj",
         "projectName": "AlmoxarifadoAPI",
-        "projectPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj",
-        "packagesPath": "C:\\Users\\gestaomargiteens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\obj\\",
+        "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj",
+        "packagesPath": "C:\\Users\\XXX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gestaomargiteens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\XXX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
+              "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
+                "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
               },
-              "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
-                "projectPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj"
+              "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
+                "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj"
               }
             }
           }
@@ -79,23 +84,28 @@
         }
       }
     },
-    "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
+    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
+        "projectUniqueName": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
         "projectName": "AlmoxarifadoDomain",
-        "projectPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
-        "packagesPath": "C:\\Users\\gestaomargiteens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\obj\\",
+        "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
+        "packagesPath": "C:\\Users\\XXX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gestaomargiteens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\XXX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -138,31 +148,36 @@
         }
       }
     },
-    "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
+    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
         "projectName": "AlmoxarifadoInfrastructure",
-        "projectPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\gestaomargiteens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\obj\\",
+        "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\XXX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gestaomargiteens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\XXX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
-                "projectPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj"
+              "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
+                "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj"
               }
             }
           }
@@ -207,31 +222,36 @@
         }
       }
     },
-    "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
+    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
+        "projectUniqueName": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
         "projectName": "AlmoxarifadoServices",
-        "projectPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
-        "packagesPath": "C:\\Users\\gestaomargiteens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\obj\\",
+        "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
+        "packagesPath": "C:\\Users\\XXX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gestaomargiteens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\XXX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\gestaomargiteens\\Documents\\GitHubRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
+              "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
+                "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
               }
             }
           }
