@@ -1,6 +1,6 @@
 ﻿using AlmoxarifadoDomain.Models;
-using AlmoxarifadoServices;
 using AlmoxarifadoServices.DTO;
+using AlmoxarifadoServices.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AlmoxarifadoAPI.Controllers
@@ -21,7 +21,7 @@ namespace AlmoxarifadoAPI.Controllers
         {
             try
             {
-                var grupos = _grupoService.ObterTodosGrupos();
+                var grupos = _grupoService.ObterTodos();
                 return Ok(grupos);
             }
             catch (Exception)
@@ -37,7 +37,7 @@ namespace AlmoxarifadoAPI.Controllers
         {
             try
             {
-                var grupo = _grupoService.ObterGrupoPorID(id);
+                var grupo = _grupoService.ObterRegistroPorID(id);
                 if (grupo == null)
                 {
                     return StatusCode(404, "Nenhum Usuario Encontrado com Esse Codigo");
@@ -57,7 +57,7 @@ namespace AlmoxarifadoAPI.Controllers
         {
             try
             {
-                 var grupoSalvo = _grupoService.CriarGrupo(grupo);
+                 var grupoSalvo = _grupoService.CriarRegistro(grupo);
                   return Ok(grupoSalvo);
             }
             catch (Exception)

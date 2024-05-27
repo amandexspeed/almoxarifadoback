@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AlmoxarifadoDomain\AlmoxarifadoDomain.csproj" />
+  </ItemGroup>
+
 </Project>
