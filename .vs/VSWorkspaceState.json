@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\srcBackAlmoxarifadoASPCore",
+    "\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI",
+    "\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain",
+    "\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\Models",
+    "\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure",
+    "\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\Data",
+    "\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\Data\\Interfaces",
+    "\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\Data\\Repositories"
+  ],
+  "SelectedNode": "\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\Data\\Interfaces\\RepositoryModelCR.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -44,3 +44,18 @@ C:\Users\XXX\OneDrive\Área de Trabalho\Estágio\Projetos Senai\almoxarifadoback
 C:\Users\XXX\OneDrive\Área de Trabalho\Estágio\Projetos Senai\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\refint\AlmoxarifadoInfrastructure.dll
 C:\Users\XXX\OneDrive\Área de Trabalho\Estágio\Projetos Senai\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\AlmoxarifadoInfrastructure.pdb
 C:\Users\XXX\OneDrive\Área de Trabalho\Estágio\Projetos Senai\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\ref\AlmoxarifadoInfrastructure.dll
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Debug\net6.0\AlmoxarifadoInfrastructure.deps.json
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Debug\net6.0\AlmoxarifadoInfrastructure.dll
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Debug\net6.0\AlmoxarifadoInfrastructure.pdb
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Debug\net6.0\AlmoxarifadoDomain.dll
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Debug\net6.0\AlmoxarifadoDomain.pdb
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\AlmoxarifadoInfrastructure.csproj.AssemblyReference.cache
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\AlmoxarifadoInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\AlmoxarifadoInfrastructure.AssemblyInfoInputs.cache
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\AlmoxarifadoInfrastructure.AssemblyInfo.cs
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\AlmoxarifadoInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\Almoxari.098DBE06.Up2Date
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\AlmoxarifadoInfrastructure.dll
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\refint\AlmoxarifadoInfrastructure.dll
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\AlmoxarifadoInfrastructure.pdb
+C:\Users\XXX\Downloads\almoxarifadoback-main\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Debug\net6.0\ref\AlmoxarifadoInfrastructure.dll

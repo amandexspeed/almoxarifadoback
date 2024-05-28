@@ -8,45 +8,48 @@ using System.Threading.Tasks;
 
 namespace AlmoxarifadoInfrastructure.Data.Repositories
 {
-    public class GrupoRepository : IGrupoRepository
+    public class GrupoRepository : RepositoryModelCR<Grupo>
     {
-        private readonly ContextSQL _context;
+
+        public GrupoRepository(ContextSQL context) : base(context)
+        {
+        }
+
+        /*private readonly ContextSQL _context;
 
         public GrupoRepository(ContextSQL pContext)
         {
             _context = pContext;
         }
-
-        public List<Grupo> ObterTodosGrupos()
+        
+        public List<Grupo> ObterTodos()
         {
             return _context.Grupo
-                    .Select(g => new Grupo
-                    {
-                        ID_GRU = g.ID_GRU,
-                        NOME_GRU = g.NOME_GRU,
-                         SUGESTAO_GRU = g.SUGESTAO_GRU ?? "" 
-                    })
+                    .Select(g => g.ShallowCopy())
                     .ToList();
         }
 
-        public Grupo ObterGrupoPorId(int id)
+        public Grupo ObterRegistroPorId(int id)
         {
             return _context.Grupo
                    .Select(g => new Grupo
                    {
+
                        ID_GRU = g.ID_GRU,
                        NOME_GRU = g.NOME_GRU,
                        SUGESTAO_GRU = g.SUGESTAO_GRU ?? ""
                    })
                    .ToList().First(x => x?.ID_GRU == id);
-        }
+         }
 
-        public Grupo CriarGrupo(Grupo grupo)
+        public Grupo CriarRegistro(Grupo grupo)
         {
             _context.Grupo.Add(grupo);
             _context.SaveChanges();
 
             return grupo;
-        }
+        }*/
+
     }
+
 }

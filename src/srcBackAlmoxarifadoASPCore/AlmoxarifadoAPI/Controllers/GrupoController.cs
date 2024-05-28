@@ -1,15 +1,29 @@
-﻿using AlmoxarifadoDomain.Models;
+﻿using AlmoxarifadoAPI.Controllers.Modelos;
+using AlmoxarifadoDomain.Models;
+using AlmoxarifadoInfrastructure.Data;
+using AlmoxarifadoInfrastructure.Data.Repositories;
 using AlmoxarifadoServices;
 using AlmoxarifadoServices.DTO;
+using AlmoxarifadoServices.Interfaces;
+using AlmoxarifadoServices.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AlmoxarifadoAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class GrupoController : ControllerBase
+    public class GrupoController : ControllerCR<Grupo>
     {
-        private readonly GrupoService _grupoService;
+
+        public GrupoController(GrupoService service) 
+        {
+            _Service = service;
+
+        }
+    }
+
+
+    /*private readonly GrupoService _grupoService;
         public GrupoController(GrupoService grupoService)
         {
             _grupoService = grupoService;
@@ -65,6 +79,5 @@ namespace AlmoxarifadoAPI.Controllers
 
                 return StatusCode(500, "Ocorreu um erro ao acessar os dados. Por favor, tente novamente mais tarde.");
             }
-        }
-    }
+        }*/
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kUa1ZOR8XPgq/u+4r3w5zwpNekzq05LCMlgbsjXqu2w3JfIGgCm+VsTtOWhmvt3qGn66MRXNd1OeU8CFJOFmUw==",
+  "dgSpecHash": "AKwAQoCQtZPNQQV/gskR+CURleuH3iMzKeuLnbDekbpv3A8PaQ0p7UPqM2IIHkuZ3+tStpa62Ic/1R1j4zeXPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
+  "projectFilePath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\XXX\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\XXX\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
