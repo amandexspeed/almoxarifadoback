@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {}
+    "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
+    "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
+        "projectUniqueName": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
         "projectName": "AlmoxarifadoDomain",
-        "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
+        "projectPath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
         "packagesPath": "C:\\Users\\XXX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\obj\\",
+        "outputPath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
+    "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
         "projectName": "AlmoxarifadoInfrastructure",
-        "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
+        "projectPath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
         "packagesPath": "C:\\Users\\XXX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\obj\\",
+        "outputPath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
-                "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj"
+              "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
+                "projectPath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
+    "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
+        "projectUniqueName": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
         "projectName": "AlmoxarifadoServices",
-        "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
+        "projectPath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
         "packagesPath": "C:\\Users\\XXX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\obj\\",
+        "outputPath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,8 +170,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\XXX\\OneDrive\\Área de Trabalho\\Estágio\\Projetos Senai\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
+              "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
+                "projectPath": "C:\\Users\\XXX\\Downloads\\almoxarifadoback-main\\almoxarifadoback-main\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
               }
             }
           }

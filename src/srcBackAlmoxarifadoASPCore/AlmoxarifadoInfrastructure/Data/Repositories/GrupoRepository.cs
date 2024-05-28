@@ -10,13 +10,18 @@ namespace AlmoxarifadoInfrastructure.Data.Repositories
 {
     public class GrupoRepository : RepositoryModelCR<Grupo>
     {
-        private readonly ContextSQL _context;
+
+        public GrupoRepository(ContextSQL context) : base(context)
+        {
+        }
+
+        /*private readonly ContextSQL _context;
 
         public GrupoRepository(ContextSQL pContext)
         {
             _context = pContext;
         }
-
+        
         public List<Grupo> ObterTodos()
         {
             return _context.Grupo
@@ -43,6 +48,8 @@ namespace AlmoxarifadoInfrastructure.Data.Repositories
             _context.SaveChanges();
 
             return grupo;
-        }
+        }*/
+
     }
+
 }

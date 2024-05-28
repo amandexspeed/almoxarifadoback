@@ -18,7 +18,24 @@ namespace AlmoxarifadoDomain.ClassesAbstratas
         public T ShallowCopy()
         {
 
-            return (T)MemberwiseClone();
+            return (T) this.MemberwiseClone();
+
+        }
+
+        public override string ToString()
+        {
+
+            var propriedades = typeof(T).GetProperties();
+            string texto = "";
+
+            foreach (var propriedade in propriedades)
+            {
+
+                texto = texto + propriedade.Name + " - " + propriedade.GetValue(this) + " - ";
+
+            }
+
+            return texto;
 
         }
 

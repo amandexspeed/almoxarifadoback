@@ -14,7 +14,7 @@ namespace AlmoxarifadoServices.Services
 {
     public class NotaFiscalService : ServiceModelCRUD<NotaFiscal>
     {
-        public NotaFiscalService(RepositoryModelCR<NotaFiscal> repository) : base(repository)
+        public NotaFiscalService(RepositoryModelCRUD<NotaFiscal> repository) : base(repository)
         {
         }
     }

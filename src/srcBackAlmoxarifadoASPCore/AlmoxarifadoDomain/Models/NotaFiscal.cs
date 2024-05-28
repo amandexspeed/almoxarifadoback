@@ -18,7 +18,7 @@ namespace AlmoxarifadoDomain.Models
         public int ID_FOR { get; set; }
         public int ID_SEC { get; set; }
         public String NUM_NOTA { get; set; }
-        public SqlMoney VALOR_NOTA { get; set;}
+        public decimal VALOR_NOTA { get; set;}
         public int QTD_ITEM { get; set; }
         public int ICMS {  get; set; }
         public int ISS {  get; set; }

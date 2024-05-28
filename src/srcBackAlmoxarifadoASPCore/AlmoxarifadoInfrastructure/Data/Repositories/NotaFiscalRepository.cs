@@ -9,11 +9,16 @@ using System.Threading.Tasks;
 
 namespace AlmoxarifadoInfrastructure.Data.Repositories
 {
-    internal class NotaFiscalRepository : RepositoryModelCRUD<NotaFiscal>
+    public class NotaFiscalRepository : RepositoryModelCRUD<NotaFiscal>
     {
-        private readonly ContextSQL _context;
 
-        public NotaFiscalRepository(ContextSQL context)
+        public NotaFiscalRepository(ContextSQL context) : base(context)
+        {
+        }
+
+        //private readonly ContextSQL _context;
+
+        /*public NotaFiscalRepository(ContextSQL context)
         {
 
             _context = context;
@@ -85,6 +90,10 @@ namespace AlmoxarifadoInfrastructure.Data.Repositories
             _context.NotaFiscal.Update( registro );
             _context.SaveChanges();
             return registro;
-        }
+       
+       }
+         */
+
     }
+
 }

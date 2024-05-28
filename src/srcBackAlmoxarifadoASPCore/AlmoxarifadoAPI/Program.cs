@@ -2,9 +2,11 @@ using AlmoxarifadoDomain.Models;
 using AlmoxarifadoInfrastructure.Data;
 using AlmoxarifadoInfrastructure.Data.Interfaces;
 using AlmoxarifadoInfrastructure.Data.Repositories;
+using AlmoxarifadoServices;
 using AlmoxarifadoServices.Interfaces;
 using AlmoxarifadoServices.Services;
 using Microsoft.EntityFrameworkCore;
+using System.Security.AccessControl;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,42 +15,61 @@ builder.Services.AddDbContext<ContextSQL>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoDBSQL")));
 
 //Carregando Classes de Repositories
+builder.Services.AddScoped<GrupoService>();
+builder.Services.AddScoped<RepositoryModelCR<Grupo>,GrupoRepository>();
+builder.Services.AddScoped<NotaFiscalService>();
+builder.Services.AddScoped<RepositoryModelCRUD<NotaFiscal>, NotaFiscalRepository>();
+
 
 var currentDomain = AppDomain.CurrentDomain;
 var assemblies = currentDomain.GetAssemblies();
 
-foreach (var assembly in assemblies)
+/*foreach (var assembly in assemblies)
 {
     var types = assembly.GetTypes();
-    foreach (var type in types)
+    foreach (var tipo in types)
     {
-        var isService = type.GetInterfaces()
-            .Where(i => i.IsGenericType)
-            .Any(i => i.GetGenericTypeDefinition() == typeof(ServiceModelCR<>) || i.GetGenericTypeDefinition() == typeof(ServiceModelCRUD<>));
+        //var @interfaces = tipo.GetInterfaces();
 
-        if (isService)
+        //if (@interfaces!=null)
+        //{
+        //    foreach(Type @interface in interfaces)
+        //        if(@interface.IsGenericType)
+
+        //}
+        var baseType = tipo.BaseType;
+        if (baseType != null && baseType.IsGenericType)
         {
-            builder.Services.AddScoped<Type>();
-        }
+            if (baseType.GetGenericTypeDefinition() == typeof(ServiceModelCR<>) || baseType.GetGenericTypeDefinition() == typeof(ServiceModelCRUD<>))
+            {
 
-        var isRepository = type.GetInterfaces()
-            .Where(i => i.IsGenericType)
-            .Any(i => i.GetGenericTypeDefinition() == typeof(RepositoryModelCR<>) || i.GetGenericTypeDefinition() == typeof(RepositoryModelCRUD<>));
-
-        if (isRepository)
-        {
-
-            builder.Services.AddScoped<Type>();
-
+                builder.Services.AddScoped(baseType, tipo);
+                /*
+                var genericArguments = baseType.GetGenericArguments();
+                foreach (var argument in genericArguments)
+                {
+                    var serviceType = typeof(ServiceModelCR<>).MakeGenericType(tipo);
+                    var serviceType = baseType.MakeGenericType(argument);
+                    builder.Services.AddScoped(serviceType, tipo);
+                }
+            }
+            else
+            if (baseType.GetGenericTypeDefinition() == typeof(RepositoryModelCR<>) || baseType.GetGenericTypeDefinition() == typeof(RepositoryModelCRUD<>))
+            {
+                builder.Services.AddScoped(baseType, tipo);
+                /*var RepositoryType = typeof(ServiceModelCR<>).MakeGenericType(tipo);
+                var genericArguments = baseType.GetGenericArguments();
+                foreach (var argument in genericArguments)
+                {
+                    var RepositoryType = baseType.MakeGenericType(argument);
+                    builder.Services.AddScoped(RepositoryType, tipo);
+                }
+                
+            }
         }
     }
 }
-
-
-//builder.Services.AddScoped<GrupoService>();
-//builder.Services.AddScoped<IRepositoryCR<Grupo>,GrupoRepository>();
-
-
+*/
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -1,5 +1,6 @@
 ﻿using AlmoxarifadoDomain.Models;
 using AlmoxarifadoInfrastructure.Data.Interfaces;
+using AlmoxarifadoInfrastructure.Data.Repositories;
 using AlmoxarifadoServices.DTO;
 using AlmoxarifadoServices.Interfaces;
 using AutoMapper;
@@ -16,8 +17,11 @@ namespace AlmoxarifadoServices.Services
 {
     public class GrupoService : ServiceModelCR<Grupo>
     {
-        public GrupoService(RepositoryModelCR<Grupo> repository) : base(repository)
+        public GrupoService(RepositoryModelCR<Grupo> repository):base(repository)
         {
+
+            
+
         }
 
 

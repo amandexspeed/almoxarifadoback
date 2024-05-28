@@ -12,10 +12,10 @@ namespace AlmoxarifadoServices.Interfaces
     public abstract class ServiceModelCRUD<T> where T : Modelo<T>
     {
 
-        protected readonly RepositoryModelCR<T> _Repository;
+        protected RepositoryModelCRUD<T> _Repository;
         protected DTO<T> dto;
 
-        public ServiceModelCRUD(RepositoryModelCR<T> repository)
+        public ServiceModelCRUD(RepositoryModelCRUD<T> repository)
         {
             _Repository = repository;
             dto = new DTO<T>();
@@ -39,11 +39,11 @@ namespace AlmoxarifadoServices.Interfaces
             return dtos;
 
         }
-        public virtual DTO<T> CriarRegistro(T n)
+        public virtual DTO<T> CriarRegistro(DTO<T> n)
         {
 
             var registroSalvo = _Repository.CriarRegistro(
-                    n.ShallowCopy()
+                    n.ToModel()
             );
 
             return new(registroSalvo);
